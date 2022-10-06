@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.barregrise{
+    background-color: #444444;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 51px;
+    height: 40px;
+}
+.barreorange{
+    background-color: #FF9900;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.lien{
+    font-size: 16px;
+    padding:0 43px;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lien:hover{
+    background-color: #444444;
+}
+.city{
+    display: block;
+    object-position: center;
+    object-fit: cover;
+    height: 600px;
+    width: 100%;
+}
+.ptbar{
+    background-color: #FF9900;
+    height: 10px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+   
+
+.cardg h2{
+    
+    
+    font-size: 38px;
+}
+.cardg p{
+    
+    font-size: 16px;
+}
+.cardg button{
+    font-size: 38px;
+    background-color: #FF9900;
+    color: #ffffff;
+    border: none;
+    
+    cursor: pointer;
+}
+.cardg{
+    background-color: #444444;
+    height: 600px;
+    display: flex;
+    color: #ffffff;
+    display: flex;
+    padding: 3rem;
+    gap: 1rem;
+}
+
+
+.puce img{
+    width: 60%;
+    
+}
+.container1, .puce{
+    width: 50%;
+    height: 100%;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 3rem;
+}
+.puce{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.card1, .card2, .card3, .card4{
+    background-color: #FF9900;
+    width: 400px;
+    height: 500px;
+    
+}
+
+.NDA{
+    padding: 3rem;
+    font-size: 38px;
+    margin: 0 auto;
+}
+.cardb img{
+    height: 50%;
+}
+.cardb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 3rem 5rem 3rem;
+}
+.para{
+    padding:0 1rem;
+    color: #ffffff;
+    height: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.para h3{
+    margin: 0;
+    
+}
+.ancre{
+    display: flex;
+    align-self: end;
+    color: #ffffff;
+}
+.cardb p {
+    margin: 0;
+}
+.cardb span{
+    font-size: 16px;
+}
+.form{
+    background-color: #FF9900;
+    color: #ffffff;
+    height: 100%;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+.carte{
+    width: 50%;
+    
+}
+
+.carte img{
+    display: block;
+    object-fit: cover;
+    height: 100%;
+}
+.form2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    height: 100%;
+    width: 80%;
+}
+form h3{
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.fp1{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding:2rem 2rem 1rem 2rem;
+}
+.fp1 div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+.fp1 label{
+    font-size: 16px;
+}
+.fp1 input{
+    height: 40px;
+}
+.fp2{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem 1rem 2rem;
+    gap: 1rem;
+}
+.fp2 input{
+    height: 40px;
+}
+textarea{
+    resize: none;
+    height: 150px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
+.submit input{
+    font-size: 24px;
+    width: 200px;
+    height: 70px;
+    background-color: #444444;
+    color: #ffffff;
+}
+.barg{
+    background-color: #444444;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: #ffffff;
+}
+.barg span{
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+    
+
+
