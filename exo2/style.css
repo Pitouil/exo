@@ -33,6 +33,7 @@ img{
 
 body {
     font-family: 'roboto';
+    color: #FFFFFF;
 }
 
 :root {
@@ -44,18 +45,17 @@ body {
 .navbar{
     height: 100px;
     background-color: #109DEA;
-    color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 h1{
     font-size: 32px;
-    padding-left: 35px;
+    padding-left: 1.5rem;
     font-weight: bold;
 }
 .nav{
-    padding-right: 35px;
+    padding-right: 1.5rem;
     height: 100%;
     display: flex;
     align-items: center;
@@ -82,19 +82,20 @@ img{
 .card{
     height: 600px;
     background-color: #04234E;
-    padding: 1.5rem;
     display: flex;
+    padding: 1.5rem;
+    gap: 1.5rem;
 }
 .card .para{
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    color: #FFFFFF;
 }
 .card .para h2{
     font-size: 48px;
     text-decoration: underline;
+    text-underline-offset: 2rem;
     text-decoration-color: #EE88E4;
 }
 .card .para p{
@@ -106,4 +107,14 @@ img{
 .card .img1 img{
     object-fit: cover;
     height: 100%;
+}
+.card2{
+    height: 550px;
+    background-color: #109DEA;
+    padding: 1.5rem;
+}
+.card2 h2{
+    font-size: 48px;
+    text-decoration: underline;
+    text-underline-offset: 2rem;
 }
