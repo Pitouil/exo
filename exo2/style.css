@@ -118,3 +118,9 @@ img{
     text-decoration: underline;
     text-underline-offset: 2rem;
 }
+.detail{
+    height: 300px;
+    width: 50%;
+    border: 1px solid #04234E;
+}
+.detail img{}
