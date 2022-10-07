@@ -196,7 +196,34 @@ form h2{
 .form_contact .sujet-mess input{
     height: 50px;
 }
+input::placeholder{
+    padding-left: 1rem;
+}
 textarea{
     resize: none;
     height: 150px;
+}
+textarea::placeholder{
+    font-family: 'roboto';
+    font-size: 13.5px;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+}
+input[type="submit"]{
+    background-color: #EE88E4;
+    color: #FFFFFF;
+    font-size: 32px;
+    padding: 0.5rem 2rem;
+    align-self: center;
+    border: transparent;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+footer{
+    background-color: #EE88E4;
+    height: 70px;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
