@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Underwater vacation</title>
 </head>
@@ -51,6 +52,23 @@
     </div>
     <form class="form_contact card">
         <h2 class="underline">Contact</h2>
+        <div class="lname-fname">
+            <div class="fname">
+                <label for="fname">Nom</label>
+                <input type="text" id="fname" name="fname" placeholder="Entrez votre nom">
+            </div>
+            <div class="lname">   
+                <label for="lname">Prénom</label>
+                <input type="text" id="lname" name="lname" placeholder="Entrez votre prénom">
+            </div>
+        </div>
+        <div class="sujet-mess">
+            <label for="sujet">Sujet</label>
+            <input type="text" id="sujet" name="sujet" placeholder="Entrez votre sujet">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Entrez votre message"></textarea>
+            <input type="submit" value="ENVOYER">
+        </div>
     </form>
 </body>
 </html>
