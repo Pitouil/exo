@@ -92,7 +92,7 @@ img{
     flex-direction: column;
     justify-content: space-around;
 }
-.card .para h2{
+.underline{
     font-size: 48px;
     text-decoration: underline;
     text-underline-offset: 1.5rem;
@@ -116,11 +116,6 @@ img{
     flex-direction: column;
     justify-content: space-around;
     gap: 2rem;
-}
-.underline{
-    font-size: 48px;
-    text-decoration: underline;
-    text-underline-offset: 1.5rem;
 }
 .card_detail{
     display: flex;
