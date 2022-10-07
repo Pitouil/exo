@@ -122,5 +122,11 @@ img{
     height: 300px;
     width: 50%;
     border: 1px solid #04234E;
+    display: flex;
 }
-.detail img{}
+.detail img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
