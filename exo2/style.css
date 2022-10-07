@@ -95,7 +95,7 @@ img{
 .card .para h2{
     font-size: 48px;
     text-decoration: underline;
-    text-underline-offset: 2rem;
+    text-underline-offset: 1.5rem;
     text-decoration-color: #EE88E4;
 }
 .card .para p{
@@ -111,15 +111,23 @@ img{
 .card2{
     height: 550px;
     background-color: #109DEA;
-    padding: 1.5rem;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2rem;
 }
-.card2 h2{
+.underline{
     font-size: 48px;
     text-decoration: underline;
-    text-underline-offset: 2rem;
+    text-underline-offset: 1.5rem;
+}
+.card_detail{
+    display: flex;
+    gap: 1.5rem;
 }
 .detail{
-    height: 300px;
+    height: 350px;
     width: 50%;
     border: 1px solid #04234E;
     display: flex;
@@ -128,5 +136,26 @@ img{
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+.card2 .card_detail .detail .parad{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    gap: 1.5rem;
+}
+.card2 .card_detail .detail .parad h3{
+    font-size: 48px;
+}
+.card2 .card_detail .detail .parad p{
+    font-size: 20px;
+}
+.card2 .card_detail .detail .parad a{
+    align-self: flex-end;
+    font-size: 32px;
+    background-color: #04234E;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
 }
 
