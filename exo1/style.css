@@ -206,6 +206,12 @@ form h3{
 }
 .fp1 input{
     height: 40px;
+    padding-left: 1rem;
+}
+.fp1 input::placeholder{
+    font-style: italic;
+    color: #444444;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .fp2{
     display: flex;
@@ -215,10 +221,23 @@ form h3{
 }
 .fp2 input{
     height: 40px;
+    padding-left: 1rem;
+}
+.fp2 input::placeholder{
+    font-style: italic;
+    color: #444444;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
 textarea{
     resize: none;
     height: 150px;
+    padding-left: 1rem;
+}
+textarea::placeholder{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #444444;
+   
 }
 .submit{
     display: flex;
